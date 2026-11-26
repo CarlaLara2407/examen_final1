@@ -1,0 +1,103 @@
+   * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+   }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: whitesmoke;
+      color: black;
+    }
+
+   
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 20px;
+      background-color: black;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: rgb(207, 137, 216);
+    }
+
+    .carrito {
+      background-color: rgb(150, 24, 30);
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .carrito:hover {
+      background-color: rgb(64, 4, 5);
+    }
+
+    
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 30px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .intereses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.tarjeta {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px gray;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex-grow: 1;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  color: white;
+  margin-top: 50px;
+}
+
+
